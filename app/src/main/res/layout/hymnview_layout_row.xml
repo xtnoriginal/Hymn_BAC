@@ -1,0 +1,37 @@
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="10dp">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginLeft="@dimen/margin_medium"
+    android:layout_marginRight="@dimen/margin_medium"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/element_text"
+        android:textAppearance="?attr/textAppearanceHeadline5" />
+
+    <ImageButton
+        android:id="@+id/imageView"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:visibility="visible"
+        android:background="@null"
+        android:padding="20dp"
+        app:srcCompat="@drawable/ic_baseline_favorite_border_24"
+        />
+
+
+</FrameLayout>
+</com.google.android.material.card.MaterialCardView>
